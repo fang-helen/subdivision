@@ -16,8 +16,22 @@ I implemented the Catmull clark, Loop, and Doo-sabin algorithms.
 
 I also implemented OBJ file loading to render and subdivide your own polymeshes. Some of the OBJ files I used to to test my program are included in the [`obj/`](https://github.com/fang-helen/subdivision/tree/master/obj) folder.
 
+### Controls
+- J - perform 1 round of subdivision using the currently selected subdivision algorithm.
+(The startup message in the terminal window will tell you which one).
+- K - re-initializes the mesh using either the OBJ file or default cube, allowing you to start
+the subdivision over.
+- L - cycles through the subdivision algorithms so you can switch which method the program uses.
+
+Camera controls:
+- W/S - zoom in and out
+- A/D, up/down - move camera around
+- right/left - spin camera
+- left mouse click + drag - another way to rotate the camera
+- C - toggle orbital/FPS mode on camera
+
 ### Running the project
 
-I've included a runnable exe in the [`exe/`](https://github.com/fang-helen/subdivision/tree/master/exe) folder. It can be run from the commmand line to specity the OBJ file to load, e.g. `> menger.exe ..\obj\teapot.obj`.
+I've included a runnable exe in the [`exe/`](https://github.com/fang-helen/subdivision/tree/master/exe) folder. Run the binary from the command line to pass OBJ filename arguments, e.g. `> menger.exe ..\obj\teapot.obj`. If no argument is included, a cube will be initialized.
 
 I can provide the full project upon request, which can be built using cmake. Because this project was built on top of one of our other class projects, some necessary files are currently ommitted from this repo. 

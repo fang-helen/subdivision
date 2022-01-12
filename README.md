@@ -1,12 +1,14 @@
 ## Subdivision algorithms
 
+Screenshot demos can be found in the [project writeup](https://github.com/fang-helen/subdivision/blob/master/subdivision/project_writeup.pdf)!
+
 This is the final project I did for my computer graphics class at UT Austin (CS354), which I chose to do on polymesh subdivision algorithms.
 
 This project was completely independent and self-scoped - we had discussed a couple of these algorithms in class but had not gone into the implementation details.
 
 This is an OpenGL project that can be built using cmake.
 
-Most of the core logic lives in in [`subdivision/src/subdivision.cc`](https://github.com/fang-helen/subdivision/blob/master/subdivision/src/subdivision.cc), and I also briefly discuss it in the [project writeup](https://github.com/fang-helen/subdivision/blob/master/subdivision/project_writeup.pdf), which also includes screenshot demos.
+Most of the core logic lives in in [`subdivision/src/subdivision.cc`](https://github.com/fang-helen/subdivision/blob/master/subdivision/src/subdivision.cc), and I also briefly discuss it in the [project writeup](https://github.com/fang-helen/subdivision/blob/master/subdivision/project_writeup.pdf).
 
 ### Algorithms
 
